@@ -1,0 +1,263 @@
+{
+  "project_info": {
+    "project_number": "757396378769",
+    "firebase_url": "https://astrovedh-67f19-default-rtdb.firebaseio.com",
+    "project_id": "astrovedh-67f19",
+    "storage_bucket": "astrovedh-67f19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757396378769:android:c1f3b31866c2850ce69b30",
+        "android_client_info": {
+          "package_name": "com.KrashItServices.astroExpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757396378769-0717ilgfh6i585bn76il9364ce84b0r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KrashItServices.astroExpress",
+            "certificate_hash": "109942a71d2a87c222d1582788bd152b02eb201e"
+          }
+        },
+        {
+          "client_id": "757396378769-bvqp6folasntp3gsr72rong4t24g2hei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KrashItServices.astroExpress",
+            "certificate_hash": "85de50bf6d4e444c7f24559860a28d4cd4f5b89a"
+          }
+        },
+        {
+          "client_id": "757396378769-il83rmfnm2d78rb01o1r3ek61ifa956g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KrashItServices.astroExpress",
+            "certificate_hash": "c56d9f2547681295f9e069fde25e3e4157a99fe5"
+          }
+        },
+        {
+          "client_id": "757396378769-mlhqjhk7f23gee0eih0g9d00hg38jgcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KrashItServices.astroExpress",
+            "certificate_hash": "9535b1cea5316e6a20241bdc4843023982d744ea"
+          }
+        },
+        {
+          "client_id": "757396378769-q93r8l7hctr3u4dc4imhjtde4gek336p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KrashItServices.astroExpress",
+            "certificate_hash": "1d3901c51a721efa2590dda93b85d9e952c575ea"
+          }
+        },
+        {
+          "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOfBZ2BVDKs7Y7iliqtA0gjpMRJNuxgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "757396378769-b0qi1fbdlevq4q69iliqd6ir7j7ol2n8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.harshy.AstroExpress"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757396378769:android:cbbbae9366644821e69b30",
+        "android_client_info": {
+          "package_name": "com.bob.astroexpress_vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOfBZ2BVDKs7Y7iliqtA0gjpMRJNuxgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "757396378769-b0qi1fbdlevq4q69iliqd6ir7j7ol2n8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.harshy.AstroExpress"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757396378769:android:20e46982b3b87595e69b30",
+        "android_client_info": {
+          "package_name": "com.krashIT.sahilpvns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757396378769-5l5evsf0hhs2m5pqokf0i11fmp22oe3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krashIT.sahilpvns",
+            "certificate_hash": "9535b1cea5316e6a20241bdc4843023982d744ea"
+          }
+        },
+        {
+          "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOfBZ2BVDKs7Y7iliqtA0gjpMRJNuxgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "757396378769-b0qi1fbdlevq4q69iliqd6ir7j7ol2n8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.harshy.AstroExpress"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757396378769:android:fc6a64ce3210bdf1e69b30",
+        "android_client_info": {
+          "package_name": "com.krashItServices.ashishkumar.try1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757396378769-5uq4jvm1hf0andc8sf6536a6n44j63ld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krashItServices.ashishkumar.try1",
+            "certificate_hash": "1d3901c51a721efa2590dda93b85d9e952c575ea"
+          }
+        },
+        {
+          "client_id": "757396378769-6r1b636bk0jjvi2ss2oqp4a5cj90svs9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krashItServices.ashishkumar.try1",
+            "certificate_hash": "157d1dd1c46ba705078b69164b828cae7bf99f52"
+          }
+        },
+        {
+          "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOfBZ2BVDKs7Y7iliqtA0gjpMRJNuxgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "757396378769-b0qi1fbdlevq4q69iliqd6ir7j7ol2n8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.harshy.AstroExpress"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757396378769:android:44dacab4d336464be69b30",
+        "android_client_info": {
+          "package_name": "in.tvac.sahilpvns.firebasesearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757396378769-he9j4pu0an4p99k31a181j4cetq3kae4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.tvac.sahilpvns.firebasesearch",
+            "certificate_hash": "9535b1cea5316e6a20241bdc4843023982d744ea"
+          }
+        },
+        {
+          "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOfBZ2BVDKs7Y7iliqtA0gjpMRJNuxgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757396378769-fgc4l8suh0dq5s1poh389eq9v4eshg38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "757396378769-b0qi1fbdlevq4q69iliqd6ir7j7ol2n8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.harshy.AstroExpress"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
