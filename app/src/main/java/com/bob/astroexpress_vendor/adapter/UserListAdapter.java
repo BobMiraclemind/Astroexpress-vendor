@@ -46,8 +46,8 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.MyView
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context,ChatsActivity.class);
-                intent.putExtra("username",usersModel.getName());
-                intent.putExtra("user_uid",usersModel.getUid());
+                intent.putExtra("username",usersModel.getName().trim());
+                intent.putExtra("user_uid",usersModel.getUid().trim());
                 context.startActivity(intent);
             }
         });

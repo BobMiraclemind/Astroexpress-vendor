@@ -3,15 +3,24 @@ package com.bob.astroexpress_vendor.datamodel;
 public class UsersModel {
     String name,email, uid, dob, tob, pob,gender;
 
+    public UsersModel() {
+    }
+
+    public UsersModel(String name, String uid, String dob, String tob, String pob, String gender) {
+        this.name = name;
+        this.uid = uid;
+        this.dob = dob;
+        this.tob = tob;
+        this.pob = pob;
+        this.gender = gender;
+    }
+
     public String getGender() {
         return gender;
     }
 
     public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    public UsersModel() {
     }
 
     public String getName() {
