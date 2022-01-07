@@ -51,15 +51,12 @@ public class ChatListActivity extends AppCompatActivity {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                dataHolder.clear();
                 for (DataSnapshot dataSnapshot:snapshot.getChildren()){
                     userUid = dataSnapshot.getKey();
                     if (snapshot.child(userUid.trim()).child("Request").child(uid).getValue() !=null &&
                             snapshot.child(userUid.trim()).child("Request").child(uid).child("user_status").getValue() !=null) {
-
-
                         if (snapshot.child(userUid.trim()).child("Request").child(uid).child("user_status").getValue().equals("active")) {
-
-
                             if (snapshot.child(userUid.trim()).child("name").getValue() != null &&
                                     snapshot.child(userUid.trim()).child("gen").getValue() != null &&
                                     snapshot.child(userUid.trim()).child("dob").getValue() != null &&
@@ -72,19 +69,16 @@ public class ChatListActivity extends AppCompatActivity {
                                 tob = snapshot.child(userUid.trim()).child("tob").getValue(String.class);
                                 pob = snapshot.child(userUid.trim()).child("pob").getValue(String.class);
 
-                                //&& status.equals("true")
-
                                 if (username != "" && gender != "" && dob != "" && tob != "" && pob != "") {
-                                    UsersModel ob1 = new UsersModel(username,uid,dob,tob,pob,gender);
+                                    UsersModel ob1 = new UsersModel(username,userUid,dob,tob,pob,gender);
                                     dataHolder.add(ob1);
-                                    adapter.notifyDataSetChanged();
-                                    //recyclerView.setAdapter(adapter);
                                 }
                             }
 
                         }
                     }
                 }
+                adapter.notifyDataSetChanged();
             }
 
             @Override

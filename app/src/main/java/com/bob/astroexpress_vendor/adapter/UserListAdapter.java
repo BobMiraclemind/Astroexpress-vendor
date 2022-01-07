@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bob.astroexpress_vendor.R;
 import com.bob.astroexpress_vendor.databinding.SingleUserItemBinding;
 import com.bob.astroexpress_vendor.datamodel.UsersModel;
-import com.bob.astroexpress_vendor.ui.activity.ChatsActivity;
+import com.bob.astroexpress_vendor.ui.activity.ChatActivity;
 
 import java.util.ArrayList;
 
@@ -45,7 +45,8 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.MyView
         holder.binding.gotoChats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context,ChatsActivity.class);
+                Intent intent = new Intent(context, ChatActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.putExtra("username",usersModel.getName().trim());
                 intent.putExtra("user_uid",usersModel.getUid().trim());
                 context.startActivity(intent);
